@@ -1,0 +1,50 @@
+
+
+	<table id="search">
+			<tr id="search_row">
+
+				<td class="logo">
+<a href="http://www.leximo.org"><img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary"></a>
+				</td>
+
+				<td class="search_form">
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
+						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
+						    <%= text_field_tag :search, params[:search], :size => 40  %>
+						    <%= submit_tag "Leximo Define", :name => nil %>
+						<% end %> 
+				</td>
+	</table>
+
+
+
+	<div id="header">
+
+		<ul class="content_navigation">
+			<p>
+				<li><%= link_to ' Popular Words', words_path %></li>
+				<li><%= link_to 'Recent Words', recent_words_path %></li>
+				<li><%= link_to 'Add Word', new_word_path %></li>
+			</p>
+		</ul>
+
+
+	</div>	<!-- end #header -->
+
+<div id="sidebar">
+	<%= render :partial => 'layouts/menu' %>
+</div>
+
+   	<br><p>Search results for your query. Don't like the results, add your own <%= link_to "definition here.", new_word_path %></p>
+    <% for word in @words %>    
+      <% if word.class.name == "Word" %>
+            <%= render :partial => "words/word", :locals => { :word => word } %>  
+      <% else %>
+	   <h1>There were no words for your query</h1><br/><br/>   
+      <% end %>   <% end %> 
+<%= will_paginate @words %>

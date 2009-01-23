@@ -1,0 +1,83 @@
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {display: none;}
+            div.c2 {text-align:left;font-size:14px;}
+            div.c1 {text-align:center;font-size:30px;}
+            /*]]>*/
+        </style>
+
+
+<% content_for :title, " Join Leximo, start the Revolution - Leximo, The World's Dictionary - Share your worlds with the World"  %>
+
+
+<div id="container">   
+
+<table class="columns" cellspacing="0" >
+
+	<tbody>
+
+		<tr>
+
+			<td id="content" class="column">
+
+				<div class="wrapper">
+
+
+					<td id="signup_form_left">
+						<%= error_messages_for 'user' %>
+
+						<% form_for :user, :url => users_path do |f| -%>
+
+							<h1> Create a Leximo account</h1><br/>
+						<h3>
+							<p><label for="login"> Login</label><br/>
+							<%= f.text_field :login %></p>
+
+							<p><label for="email"> Email</label><br/>
+							<%= f.text_field :email %></p>
+
+							<p><label for="password"> Password</label><br/>
+							<%= f.password_field :password %></p>
+
+							<p><label for="password_confirmation"> Confirm Password</label><br/>
+							<%= f.password_field :password_confirmation %></p>
+
+							<p>Are you human? :)</p>
+							<p><%= recaptcha_tags %></p>
+
+							<p><%= submit_tag 'Join the Revolution, Sign up for Leximo' %></p>
+						</h3>
+						<% end -%>
+
+					</td>
+				</div>
+
+			</td>
+
+			<td id="signup_form_right" class="column">
+
+
+					<div id="side"> <br/>
+						<center>
+							<h1>What's Leximo? </h1>
+							<br/>
+							<img src="/images/Buddy_Chat.png" border="0" alt="What's Leximo?" ><img/> 
+						</center>
+						<br/>
+
+						<div class="c2">            
+						<p>Leximo is a multi-lingual social dictionary that invites users to submit words in every spoken language of the world.</p> 
+
+						<p>Since each word can be submitted by multiple users, definitions can vary widely in quality and thus other users can rank these definitions, so that the most popular definitions appear first.</p>
+						</div>
+					</div>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+	
+</div>	

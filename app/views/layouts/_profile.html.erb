@@ -1,0 +1,29 @@
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {display: none;}
+            div.c2 {text-align:left;font-size:20px;}
+            div.c1 {text-align:center;font-size:30px;}
+            /*]]>*/
+        </style>
+
+	<% if @user.name? %><div class="c1"> <%= @user.name %>  </div>  <% end %> <br/>
+
+	<img class ="photo">
+		<center>
+
+			<% if @user.photo? %> <%= image_tag @user.photo.url(:large) %> <br/> <br/> 
+			<% else %> <img alt="user-profile-photo" style="border-width:0" src="/images/Buddy.png" />
+			<% end %>
+
+		</center>
+	</img>
+
+
+	<strong>Location: </strong> <% if @user.location? %><%= @user.location %> <%else %> N/A<% end %> <br/> <br/> 
+	<strong>Web: </strong> <% if @user.web? %> <%= link_to  @user.web , @user.web %> <%else %> N/A <% end %><br/> <br/> 
+	<strong>Bio: </strong> <% if @user.bio? %> <%= @user.bio %> <%else %> N/A <% end %><br/> <br/> 
+
+	<center>
+		<br/><% if @current_user.login == @user.login %> <%= link_to 'Edit Your Profile', edit_user_path(current_user) %> <% end %>
+	</center>
+

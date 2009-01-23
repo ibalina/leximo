@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /session/new
+Disallow: /forgot_password
+Disallow: /logout
+Disallow: /search?

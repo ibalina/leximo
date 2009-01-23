@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  word: Superhero
+  language: English
+  definition: a hero, esp. in children's comic books and television cartoons, possessing extraordinary, often magical powers
+  example: Superman is one of the greatest superheroes of all-time.
+  user_id: 1
+  votes_count: 3
+  
+two:
+  word: Superhero
+  language: English
+  definition: A figure, especially in a comic strip or cartoon, endowed with superhuman powers and usually portrayed as fighting evil or crime.
+  example: Batman and robin are two great superhero duos.
+  user_id: 1
+  votes_count: 2

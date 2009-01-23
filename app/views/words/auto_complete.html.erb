@@ -1,0 +1,6 @@
+<ul class="autocomplete_list">
+  <% for word in @words.to_a -%>
+    <li class="autocomplete_item"><%= word_link word.word, word %>
+
+<% end -%>
+

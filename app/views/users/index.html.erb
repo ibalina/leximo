@@ -1,0 +1,15 @@
+<div id="container">   
+   <div id="form">
+   <h1>All Users (<%= @users.size %>)</h1>
+   <table>
+     <tr>
+  <b><th width="200">Username</th></b>
+       <b><th width="350">Email</th></b>
+       <b><th width="200">Enabled?</th></b>
+       <b><th width="200">Roles</th></b>
+     </tr>
+       <%= render :partial => 'user', :collection => @users %>
+       <%= will_paginate @users %>	
+   </table>
+   </div>
+</div>

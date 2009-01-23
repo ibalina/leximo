@@ -1,0 +1,482 @@
+body, td, th, textarea, input, select, ul {
+	-x-system-font:none;
+	color:#333333;
+	font-family:'Lucida Grande',sans-serif;
+	font-size: 93%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.3;
+}
+h1 {
+font-size:18px;
+}
+h2 {
+font-size:12px;
+}
+body  {
+
+	background-image:url(../images/background4.png); 
+	background-attachment:fixed;
+	background-position: 30% 20%; 	
+
+	margin:0;
+	padding:0 20px;
+	text-align:center;
+
+}
+#container { 
+	margin:0 auto;
+	padding:0px 0;
+	position:relative;
+	text-align:left;
+	min-width:763px;
+	max-width:1035px;
+
+}
+#columns{
+	margin:0 auto;
+	padding:15px 0;
+	position:relative;
+	text-align:left;
+	max-width: 1200px;
+}
+
+#search{
+	margin:0 auto;
+	position: relative;
+}
+td.search_form{
+	vertical-align: middle;
+	padding-top:65px;
+	font-size:129% !important;
+}
+.twoColLiqRtHdr #header {
+	width: 90%; 
+	/*background: #ffffff; */
+	margin-left: 62px;
+	margin-bottom: 10px;
+	padding: 0 0px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColLiqRtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 3px; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. since we are working in percentages, it's best not to use padding on the sidebar. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+2. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColLiqRtHdr #sidebar1 p" rule.
+3. Since Explorer calculates widths after the parent element is rendered, you may occasionally run into unexplained bugs with percentage-based columns. If you need more predictable results, you may choose to change to pixel sized columns.
+*/
+ 
+#sidebar {
+	clear:left;
+	float:right;
+	min-height:400px;
+	margin-top: 20px;
+	margin-left: 1px;
+	width: 30%;
+	border: 2px solid #FCDF6B;
+	padding:30px 20px;
+	background: #FEFFDF; /* the background color will be displayed for the length of the content in the column, but no further */
+	/* padding-top: 15px 0;  top and bottom padding create visual space within this div  */
+}
+#sidebar_user_profile {
+	clear:left;
+	float:right;
+	min-height:400px;
+	margin-top: 60px;
+	margin-left: 1px;
+	width: 30%;
+	border: 2px solid #FCDF6B;
+	padding:30px 20px;
+	background: #FEFFDF; /* the background color will be displayed for the length of the content in the column, but no further */
+	/* padding-top: 15px 0;  top and bottom padding create visual space within this div  */
+}
+
+/* Tips for mainContent:
+1. the space between the mainContent and sidebar1 is created with the right margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this right margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. to avoid float drop at a supported minimum 800 x 600 resolution, elements within the mainContent div should be 430px or smaller (this includes images).
+3. in the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs.
+*/
+.twoColLiqRtHdr #content { 
+	margin: 0 33% 0 10px; /* the left margin should mirror the margin on the header and footer for proper alignment. */
+} 
+
+.twoColLiqRtHdr #footer { 
+	padding: 20px 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	/* background:#fff;  */
+} 
+.twoColLiqRtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+td.word_definition_body{
+	width: 70%;
+	padding-right: 10px;
+	padding-left: 15px;
+	vertical-align:middle;
+}
+td.scores_table{
+	width: 15%;
+/*	text-align:left; */
+	text-decoration:none;
+	vertical-align: top;
+}
+td.photo_thumb{
+	width: 15%;
+	vertical-align: middle;
+	padding:0 30px 0 0;
+}
+#word_body_definition{
+	margin:0 25px 0 0;
+	max-width:650px;
+}
+td.user{
+	text-decoration:none;
+	vertical-align:top;
+	width:15%;
+	padding-top:19px;
+}
+td.word_body{
+	width: 70%;
+	padding-right: 10px;
+	padding-left: 15px;
+	vertical-align: top;
+}
+#word_pic{
+	margin: 0px;
+
+}
+td.word_video{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+td.voting{
+	max-width: 150px;
+	vertical-align: top;
+}
+#vote_score {
+	background-color:#E0EAF1;
+	border-bottom:2px solid #393;
+	border-right:2px solid #7F9FB6;
+	color:#3E6D8E;
+	/* font-size:90%; */
+	line-height:2.2;
+	margin:2px 40px 2px 0px;
+	padding:3px 4px;
+	text-decoration:none;
+	/*float: left; */
+	background: #EEEEEE; 
+	min-height:40px;
+	text-align:center;
+	width:50px;
+} 
+#vote_form {
+	/* margin:-24px 40px 50px 10px; */
+	float: right;
+/*	right:0; */
+/*	list-style-image:none; */
+	list-style-type:none;
+/*	margin:0; */
+/*	padding:0; */
+} 
+#vote_form input {
+
+}
+#vote_form input:hover { 
+	background-color: #aea;
+}
+#content {
+	/*background-color: #fff4; */
+	/* padding: 10px; */
+	overflow: hidden; 
+	padding-right: 10px;
+} 
+* html #content {
+	height: 1%; 
+} 
+#vote_history {
+	padding: 5px;
+	margin: 0;
+	list-style: none;
+	border: 3px solid #ccc;
+	background-color: #eee;
+	float: right;
+	color: #999;
+	font-size: smaller; 
+}
+	/* embeds the openid image in the text field */
+input#openid_url {
+   background: url(http://openid.net/login-bg.gif) no-repeat;
+   background-color: #fff;
+   background-position: 0 50%;
+   color: #000;
+   padding-left: 18px;
+}
+a:link { color: #F60; }
+a:visited { color: #900; }
+a:active {color: #B2F511; }
+a:link {text-decoration: none;}
+
+#navigation {
+	list-style: none;
+	padding: 5px 0;
+	margin: 0;
+}
+.word {
+	float: left;
+	width: 40%; 
+} 
+.word h3 { margin-bottom: 0; } 
+.word p  { 
+	color: #666;
+	font-size: 12px;
+}
+
+.tags a { 
+	background-color:#E0EAF1;
+	border-bottom:2px solid #3E6D8E;
+	border-right:2px solid #7F9FB6;
+	color:#3E6D8E;
+	font-size:90%;
+	line-height:2.2;
+	margin:2px 2px 2px 0;
+	padding:3px 4px;
+	text-decoration:none;
+} 
+
+ul.content_navigation { 
+	    margin-left: 0px;
+	    margin-top: 5px;
+	    margin-bottom: 35px;
+	    padding-left: 0px;
+	    list-style: none;
+	    border-bottom: 2.5px solid #FCDF6B;
+	    float:left;
+	    width: 100%;
+		/* background: #ffffff; */
+}
+
+ul.content_navigation li { 
+		float: left; 
+}
+
+ul.content_navigation a { 
+	    width: 9em;
+	    display: block;
+	    border: 2.5px solid #FCDF6B;
+	    border-bottom: none;
+	    padding: 5px;
+	    margin-right: 5px;
+	    background-color: #FEFFDF;
+	    text-decoration:none;
+	    color: #333;
+	    text-align: center;
+ }
+/* Word Submission Form */
+
+#login_logout
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#form
+{
+	padding:20px 20px 40px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topright:5px;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	vertical-align:top;
+	width:1000px;
+}
+
+#signup_form
+{
+	background: #FEFFDF;
+/*	margin-left: -83px; */
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	border: 2.5px solid #FCDF6B;
+	float: left;
+	width: 715px;
+}
+
+#login_form
+{
+	background: #FEFFDF;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	border: 2.5px solid #FCDF6B;
+	float: left;
+	width: 715px;
+}
+
+#word_form
+{
+	padding:10px 40px 40px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topright:5px;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	vertical-align:top;
+}
+
+#banner
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* Error Reporting Styles */
+.fieldWithErrors {
+	margin: 2px;
+	padding: 2px;
+	background-color: blue;
+	display: table;
+}
+#notice {
+	border: 3px solid #66FF66;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin-top: 40px;
+	background-color: #CCFFCC;
+}
+#error {
+	border: 3px solid red;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin-top: 40px;
+	background-color: #FEFFDF;
+}
+#errorExplanation {
+	border: 3px solid red;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	margin-right: 50px;
+	background-color: #FF6666;
+}
+#error h2 {
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 12px;
+	margin: -7px;
+	background-color: #c00;
+	color: #fff;
+}
+#error p {
+	color: #333;
+	margin-bottom: 0;
+	padding: 5px;
+}
+#error ul li {
+	font-size: 12px;
+	list-style: square;
+}
+
+#word_definition{
+	margin-left: 10px;
+}
+#login_badge{
+	margin-top: -340px;
+	margin-left: 450px;
+	margin-right: 25px;
+	float: right;
+	min-width: 450px;
+}
+#signup_form_left{
+	width: 400px;
+	padding-right: 10px;
+	padding-left: 5px;
+	vertical-align:middle;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	padding:20px 40px 40px;
+}
+.subpage #content .wrapper {
+	padding:5px 10px 15px;
+}
+
+#signup_form_right{
+	padding:20px 40px 40px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topright:5px;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	vertical-align:baseline;
+	width:370px;
+}
+#login_form_left{
+	width: 250px;
+	padding-right: 10px;
+	padding-left: 5px;
+	vertical-align:top;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	padding:20px 20px 40px;
+}
+#login_form_right{
+	padding:20px 20px 40px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topright:5px;
+	background:#FEFFDF none repeat scroll 0 0;
+	border:2.5px solid #FCDF6B;
+	vertical-align:top;
+	width:520px;
+}
+#words{
+	border-top: 3px solid #FCDF6B;
+	border-bottom: 1px solid #FCDF6B;
+	margin:0 25px 0 0;
+	max-width: 650px;
+}
+#words_submitted{
+	width: 600px;
+}
+.words-body {
+
+	padding-left:60px;
+	border-top: 4px solid #FCDF6B;
+}
+
+.words-leximo {
+	font-size:85%;
+	left:0;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	text-align:center;
+	top:0.8em;
+}
+
+div.c3 {display: none;}
+div.c2 {text-align:center;font-size:18px;}
+div.c1 {text-align:center;font-size:23px;}

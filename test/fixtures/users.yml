@@ -1,0 +1,16 @@
+ian:
+  id: 1
+  login: ian
+  email: ian@leximo.org
+  salt: db3942833794172658161e5e50c05c70ff060082
+  crypted_password: c5d108cf2ee36577add162599f9ab1b35277530a # test
+  created_at: 2008-08-12 02:00:28
+  
+quentin:
+  id: 2
+  login: quentin
+  email: info@leximo.org
+  salt: db3942833794172658161e5e50c05c70ff060082
+  crypted_password: c5d108cf2ee36577add162599f9ab1b35277530a # test
+  created_at: 2008-12-08 02:00:28
+

@@ -1,0 +1,8 @@
+
+
+	<% for user in @words %>    
+	      <% if user.class.name == "User" %>
+		    <%= render :partial => "users/user", :locals => { :user => user } %>    
+	      <% end %>
+      <% end %>
+

@@ -1,0 +1,66 @@
+
+<% content_for :title, params[:id] + " - Word's tagged with " + params[:id] + " on Leximo, The World's Dictionary - Share your worlds with the World"  %>
+
+
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {text-align:center;font-size:20px;}
+            div.c2 {text-align:center;font-size:20px;}
+            div.c1 {text-align:center;font-size:40px;}
+            /*]]>*/
+        </style>
+
+	<table id="search">
+			<tr id="search_row">
+
+				<td class="logo">
+<a href="http://www.leximo.org"><img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary"></a>
+				</td>
+
+				<td class="search_form">
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
+						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
+						    <%= text_field_tag :search, params[:search], :size => 40  %>
+						    <%= submit_tag "Leximo Define", :name => nil %>
+						<% end %> 
+				</td>
+	</table>
+
+
+
+	<div id="header">
+
+		<ul class="content_navigation">
+			<p>
+				<li><%= link_to ' Popular Words', words_path %></li>
+				<li><%= link_to 'Recent Words', recent_words_path %></li>
+				<li><%= link_to 'Add Word', new_word_path %></li>
+			</p>
+		</ul>
+
+
+	</div>	<!-- end #header -->
+
+<div id="sidebar">
+	<%= render :partial => 'layouts/menu' %>
+</div>
+   	<br><p>Search results for your query. Don't like the results, add your own <%= link_to "definition here.", new_word_path %></p>
+
+<div class='c2'>
+	<br>
+	Words tagged with "<%= params[:id] %>"
+	<br>
+</div>
+	<br>
+
+<% cache ({:page => params[:page] || 1}) do %>
+	<%= render :partial => @words %>
+	<br>
+	
+       <%= will_paginate @words %>	
+<% end %>

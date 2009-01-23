@@ -1,0 +1,121 @@
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {display: none;}
+            div.c2 {text-align:center;font-size:14px;}
+            div.c1 {text-align:center;font-size:18px;}
+            /*]]>*/
+        </style>
+
+
+<% content_for :title, " Login to Leximo, start the Revolution - Leximo - Free World Dictionary - Share your words with the world"  %>
+
+        <div id="container">
+           
+		<table class="columns" cellspacing="0" >
+
+			<tbody>
+
+				<tr>
+
+					<td id="content" class="column">
+
+						<div class="wrapper">
+
+							<td id="login_form_left">
+						       <%= error_messages_for 'session' %>
+							
+							<h3>
+							   "We are not liberators. Liberators do not exist. The people liberate themselves"
+							</h3>
+
+							<h2>Please sign in</h2>
+							<h3>
+							<% form_tag session_path do %>
+							<p>
+							    <label for="login">
+								Username
+							    </label>
+							    <br>
+							    <%= text_field_tag 'login' %>
+							    <br/ >
+							</p>
+							<p>
+							    <label for="password">
+								Password
+							    </label>
+							    <br>
+							    <%= password_field_tag 'password' %>
+							    <br/ >
+							</p>
+							<p>
+							    <label for="remember_me">
+								Remember me:
+							    </label>
+							    <%= check_box_tag 'remember_me' %> 
+							</p>
+					<!-- Commented out OPENID                    <label for="openid_url">
+							<h1>
+								Or use your OpenID url
+							    </label>
+							</h1>
+							<br>
+							 <%= text_field_tag "openid_url" %> 
+						 	<br/ >
+					-->
+							<p>
+							    <%= submit_tag 'Log in' %>
+							</p>
+							<p> <%= link_to '  Forgot Password?', forgot_password_path %> </p>
+							    <%= link_to "Not a member? Join here", new_user_path %><br><br/ >
+
+							<% end %>
+							</h3>
+							</td>
+						</div>
+
+					</td>
+
+					<td id="login_form_right" class="column">
+						<center>
+						<div id="login_side"> 
+							<img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary" ><img/> 
+
+							<div class='c2'>
+							    <br/>
+							    "Share your Words with the World"
+							    <br/ >
+							</div>
+							<div class='c2'>
+							<br/ >
+							<a>
+							    <img src="/images/Find_Search.png" border="0" alt="Search words on Leximo" /><img/>
+							</a>
+							<a>
+							    <img src=
+							    "/images/Document_Edit.png" border="0" alt="Add words on Leximo" /><img/>
+							</a>
+							<a>
+							    <img src=
+							    "/images/Chat_2.png" border="0" alt="Share words on Leximo" /><img/>
+							</a>
+							</div>
+							<div class='c1'>
+							    <br/ >
+							    What is Leximo?
+							</div>
+							<div class='c2'>
+							   Read <%= link_to "The Leximo Dictionary Manifesto", 'http://blog.leximo.org/2008/11/leximo-manifesto.html'%> to find out.
+							</div>
+							<center>				
+
+					</td>
+
+				</tr>
+
+			</tbody>
+
+		</table>
+
+</div>
+ 
+

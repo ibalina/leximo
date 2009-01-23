@@ -1,0 +1,94 @@
+	<table id="search">
+			<tr id="search_row">
+
+				<td class="logo">
+<a href="http://www.leximo.org"><img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary"></a>
+				</td>
+
+				<td class="search_form">
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
+						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
+						    <%= text_field_tag :search, params[:search], :size => 40  %>
+						    <%= submit_tag "Leximo Define", :name => nil %>
+						<% end %> 
+				</td>
+	</table>
+
+
+
+	<div id="header">
+
+		<ul class="content_navigation">
+			<p>
+				<li><%= link_to ' Popular Words', words_path %></li>
+				<li><%= link_to 'Recent Words', recent_words_path %></li>
+				<li><%= link_to 'Add Word', new_word_path %></li>
+			</p>
+		</ul>
+
+
+	</div>	<!-- end #header -->
+
+
+<% content_for :title, @user.login + "'s profile on Leximo - A Free World Dictionary - Share your words with the world"  %>
+
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {text-align:center;font-size:20px;}
+            div.c2 {text-align:center;font-size:20px;}
+            div.c1 {text-align:center;font-size:40px;}
+            /*]]>*/
+        </style>
+
+
+<div id="sidebar_user_profile">
+
+        <style type="text/css">
+            /*<![CDATA[*/
+            div.c3 {display: none;}
+            div.c2 {text-align:left;font-size:20px;}
+            div.c1 {text-align:center;font-size:30px;}
+            /*]]>*/
+        </style>
+
+	<div class="c1">
+		<%= @user.login.capitalize %> <br/>
+	</div>
+
+	<img class ="photo">
+		<center>
+
+			<% if @user.photo? %> <%= image_tag @user.photo.url(:large) %> <br/> <br/> 
+			<% else %> <img alt="user-profile-photo" style="border-width:0" src="/images/Buddy.png" />
+			<% end %>
+
+		</center>
+	</img>
+
+
+	<strong>Location: </strong> <% if @user.location? %><%= @user.location %> <%else %> N/A<% end %> <br/> <br/> 
+	<strong>Web: </strong> <% if @user.web? %> <%= link_to  @user.web , @user.web %> <%else %> N/A <% end %><br/> <br/> 
+	<strong>Bio: </strong> <% if @user.bio? %> <%= @user.bio %> <%else %> N/A <% end %><br/> <br/> 
+
+	<center>
+		<br/><% if @current_user.login == @user.login %> <%= link_to 'Edit Your Profile', edit_user_path(current_user) %> <% end %>
+	</center>
+
+
+</div>
+
+
+<h2>
+    <br>Words submitted by <% if @user.name? %><%= @user.name %> (<%= @user.login %> )<% else %><%= @user.login %><% end %>, who joined Leximo on: <%= @user.created_at.to_s(:long) %>
+</h2>
+	<br>
+	<div id="words_submitted">
+		<%= render :partial => 'word', :collection => @words_submitted %> 
+	</div> 
+
+       <%= will_paginate @words_submitted %>	

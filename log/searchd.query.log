@@ -1,0 +1,358 @@
+[Wed Oct  8 10:29:35.223 2008] 0.074 sec [all/1/rel 0 (0,20)] [*] sphinx
+[Wed Oct  8 10:29:45.198 2008] 0.034 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:29:56.541 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] were
+[Wed Oct  8 10:30:01.746 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] catapler
+[Wed Oct  8 10:30:08.651 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:35:47.880 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:36:16.465 2008] 0.001 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:36:41.626 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:36:48.547 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] qwew
+[Wed Oct  8 10:36:56.529 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:38:15.777 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] task_struct
+[Wed Oct  8 10:38:31.543 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] task_struct
+[Wed Oct  8 10:38:40.959 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:38:57.701 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:39:03.259 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:39:43.884 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:39:57.447 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:40:20.976 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:40:38.154 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:40:56.457 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:41:19.803 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:42:23.451 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:43:04.900 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:47:19.255 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:48:54.403 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:49:25.269 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:49:48.889 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 10:51:34.382 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] wer
+[Wed Oct  8 10:51:38.163 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] funny
+[Wed Oct  8 10:52:09.628 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] funny
+[Wed Oct  8 10:52:14.229 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] funny
+[Wed Oct  8 10:52:48.984 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] funny
+[Wed Oct  8 10:53:54.278 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] wer
+[Wed Oct  8 10:54:01.387 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Wed Oct  8 15:21:30.849 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] wer
+[Wed Oct  8 15:21:35.321 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] superman
+[Fri Oct 10 23:28:15.909 2008] 0.300 sec [all/1/rel 1 (0,20)] [*] superman
+[Sat Oct 11 01:16:00.258 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] funny
+[Sat Oct 11 01:16:09.307 2008] 0.013 sec [all/1/rel 1 (0,20)] [*] superman
+[Sat Oct 11 01:29:01.541 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 01:29:12.562 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 01:30:39.992 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 01:30:47.988 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 01:30:53.121 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 01:36:14.165 2008] 0.001 sec [all/1/rel 1 (0,20)] [*] fun
+[Sat Oct 11 01:36:39.112 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] fun
+[Sat Oct 11 01:38:45.896 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] fun
+[Sat Oct 11 01:38:51.344 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 01:39:34.720 2008] 0.001 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 01:42:42.285 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:03:52.314 2008] 0.035 sec [all/1/rel 1 (0,20)] [*] fun
+[Sat Oct 11 02:07:08.921 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] fun
+[Sat Oct 11 02:07:33.952 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 02:07:41.538 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] wer
+[Sat Oct 11 02:07:46.717 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:07:57.145 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] car
+[Sat Oct 11 02:08:05.800 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] car
+[Sat Oct 11 02:08:12.483 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:08:32.566 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] car
+[Sat Oct 11 02:08:37.930 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:10:18.316 2008] 0.034 sec [all/1/rel 0 (0,20)] [*] caer
+[Sat Oct 11 02:10:26.123 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:10:51.404 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:12:53.675 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:13:34.621 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:14:16.483 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:15:00.175 2008] 0.002 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 02:15:15.215 2008] 0.033 sec [scan/1/rel 4 (0,20)] [*] 
+[Sat Oct 11 02:16:57.126 2008] 0.021 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 02:18:45.896 2008] 0.000 sec [scan/1/rel 4 (0,20)] [*] 
+[Sat Oct 11 02:18:59.054 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 02:25:53.099 2008] 0.000 sec [all/1/rel 1 (0,20)] [*] funny
+[Sat Oct 11 02:30:30.905 2008] 0.044 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:36:33.817 2008] 0.030 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:36:41.765 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:36:52.374 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:37:00.898 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:39:25.148 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:39:31.086 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:42:40.283 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:42:45.745 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:46:27.328 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:47:13.978 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 02:50:10.457 2008] 0.000 sec [all/1/rel 0 (0,1)] [*] ian
+[Sat Oct 11 02:50:17.334 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:50:24.244 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:55:57.678 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 02:56:09.856 2008] 0.001 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:01:49.692 2008] 0.015 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:01:54.106 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:02:57.719 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 03:05:57.017 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Sat Oct 11 03:06:13.221 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:06:18.875 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:06:23.346 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Sat Oct 11 03:06:46.383 2008] 0.000 sec [all/1/rel 2 (0,11185)] [*] superman
+[Tue Oct 14 19:12:30.907 2008] 0.057 sec [all/1/rel 1 (0,20)] [*] fun
+[Tue Oct 14 19:12:37.689 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:13:01.896 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:13:38.184 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:14:04.866 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:14:05.303 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:15:03.961 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:15:09.405 2008] 0.000 sec [all/1/rel 0 (0,20)] [*] fu
+[Tue Oct 14 19:15:14.634 2008] 0.000 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:18:00.567 2008] 0.001 sec [all/1/rel 2 (0,20)] [*] superman
+[Tue Oct 14 19:20:38.301 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:20:44.515 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:21:26.666 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:21:34.185 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:21:47.310 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:23:19.165 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:23:22.075 2008] 0.000 sec [all/1/rel 2 (1,1)] [*] superman
+[Tue Oct 14 19:23:35.291 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:24:07.259 2008] 0.000 sec [all/1/rel 2 (0,2)] [*] superman
+[Tue Oct 14 19:26:16.721 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:29:42.439 2008] 0.001 sec [all/1/rel 2 (0,1)] [*] superman
+[Tue Oct 14 19:30:46.244 2008] 0.000 sec [all/1/rel 2 (0,1)] [*] superman
+[Wed Oct 15 00:23:28.375 2008] 0.161 sec [all/1/ext 2 (0,1)] [*] superman
+[Wed Oct 15 00:23:45.377 2008] 0.000 sec [all/1/ext 2 (1,1)] [*] superman
+[Wed Oct 15 00:25:12.821 2008] 0.000 sec [all/1/ext 1 (0,1)] [*] fun
+[Wed Oct 15 00:25:42.408 2008] 0.000 sec [all/1/ext 2 (0,1)] [*] fun
+[Wed Oct 15 00:25:48.285 2008] 0.000 sec [all/1/ext 2 (1,1)] [*] fun
+[Wed Oct 15 02:08:16.429 2008] 0.334 sec [all/1/ext 2 (0,1)] [*] fun
+[Wed Oct 15 02:08:39.375 2008] 0.000 sec [all/1/ext 2 (0,1)] [*] fun
+[Wed Oct 15 02:10:14.204 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] superman
+[Wed Oct 15 23:37:31.704 2008] 0.452 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:42:09.448 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:43:50.143 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:44:04.910 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:53:33.176 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:53:38.482 2008] 0.112 sec [all/1/ext 2 (0,20)] [*] fun
+[Wed Oct 15 23:53:49.352 2008] 0.016 sec [all/1/ext 0 (0,20)] [*] fun and superman
+[Wed Oct 15 23:53:54.554 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] fun & superman
+[Wed Oct 15 23:54:00.375 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] superman
+[Wed Oct 15 23:57:12.948 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:59:20.026 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:59:28.878 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Wed Oct 15 23:59:33.352 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 00:00:10.314 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 00:02:25.215 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 00:02:28.867 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 00:02:36.779 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:14:57.773 2008] 0.096 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:17:51.939 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:33:56.645 2008] 0.001 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:51:24.343 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:51:44.113 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:52:17.907 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:53:10.089 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:54:14.471 2008] 0.001 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:55:31.264 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:55:53.460 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 01:56:07.510 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 18:42:40.495 2008] 0.108 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 18:59:43.587 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:01:11.669 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:01:52.324 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:02:41.123 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:03:38.748 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:03:47.392 2008] 0.001 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:12:22.483 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:13:10.557 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:13:55.991 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:15:03.958 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:15:21.048 2008] 0.000 sec [scan/1/ext 5 (2,2)] [*] 
+[Thu Oct 16 19:16:20.678 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:16:30.565 2008] 0.001 sec [scan/1/ext 5 (4,2)] [*] 
+[Thu Oct 16 19:16:44.346 2008] 0.001 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:17:20.514 2008] 0.000 sec [scan/1/ext 5 (0,1)] [*] 
+[Thu Oct 16 19:17:28.593 2008] 0.000 sec [scan/1/ext 5 (0,1)] [*] 
+[Thu Oct 16 19:17:37.558 2008] 0.000 sec [scan/1/ext 5 (1,1)] [*] 
+[Thu Oct 16 19:17:44.257 2008] 0.000 sec [scan/1/ext 5 (2,1)] [*] 
+[Thu Oct 16 19:17:50.575 2008] 0.000 sec [scan/1/ext 5 (3,1)] [*] 
+[Thu Oct 16 19:18:06.798 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 19:18:36.477 2008] 0.000 sec [scan/1/ext 5 (0,10)] [*] 
+[Thu Oct 16 19:22:10.652 2008] 0.000 sec [scan/1/ext 5 (0,10)] [*] 
+[Thu Oct 16 19:25:01.757 2008] 0.000 sec [scan/1/ext 5 (0,1)] [*] 
+[Thu Oct 16 19:25:15.321 2008] 0.001 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:26:45.485 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:27:07.856 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:31:19.272 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:35:30.224 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:36:39.560 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 19:37:41.571 2008] 0.046 sec [scan/1/rel 5 (0,2)] [*] 
+[Thu Oct 16 19:42:44.274 2008] 0.000 sec [scan/1/rel 5 (0,2)] [*] 
+[Thu Oct 16 19:42:56.864 2008] 0.000 sec [scan/1/rel 5 (4,2)] [*] 
+[Thu Oct 16 19:43:03.857 2008] 0.000 sec [scan/1/rel 5 (2,2)] [*] 
+[Thu Oct 16 23:20:20.613 2008] 0.267 sec [scan/1/rel 5 (0,20)] [*] 
+[Thu Oct 16 23:25:15.919 2008] 0.131 sec [all/1/ext 2 (0,3)] [*] fun
+[Thu Oct 16 23:26:15.958 2008] 0.000 sec [scan/1/ext 5 (0,2)] [*] 
+[Thu Oct 16 23:31:34.757 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 23:52:52.647 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Thu Oct 16 23:53:59.050 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:00:20.558 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:00:22.458 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:01:39.089 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:11:06.494 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:12:25.148 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Fri Oct 17 00:13:07.611 2008] 0.000 sec [scan/1/ext 5 (0,1)] [*] 
+[Fri Oct 17 00:13:15.037 2008] 0.000 sec [scan/1/ext 5 (1,1)] [*] 
+[Fri Oct 17 00:13:23.139 2008] 0.032 sec [all/1/ext 2 (0,1)] [*] fun
+[Fri Oct 17 00:13:28.731 2008] 0.001 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:15:14.863 2008] 0.000 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:15:34.026 2008] 0.001 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:15:34.835 2008] 0.001 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:15:48.498 2008] 0.000 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:15:59.691 2008] 0.000 sec [all/1/ext 2 (1,1)] [*] fun
+[Fri Oct 17 00:16:51.479 2008] 0.001 sec [scan/1/ext 5 (0,1)] [*] 
+[Fri Oct 17 00:17:51.771 2008] 0.000 sec [scan/1/rel 5 (0,20)] [*] 
+[Fri Oct 17 00:19:00.949 2008] 0.000 sec [scan/1/rel 5 (0,20)] [*] 
+[Fri Oct 17 00:23:58.041 2008] 0.000 sec [scan/1/rel 5 (0,1)] [*] 
+[Sun Oct 19 23:17:55.814 2008] 0.022 sec [all/1/attr+ 2 (0,1)] [*] fun
+[Sun Oct 19 23:18:14.466 2008] 0.000 sec [all/1/attr+ 2 (1,1)] [*] fun
+[Sun Oct 19 23:18:19.926 2008] 0.000 sec [all/1/attr+ 2 (0,1)] [*] superman
+[Sun Oct 19 23:20:52.346 2008] 0.000 sec [all/1/attr+ 2 (0,20)] [*] superman
+[Sun Oct 19 23:21:14.543 2008] 0.000 sec [all/1/attr+ 2 (0,20)] [*] superman
+[Sun Oct 19 23:22:05.245 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] superman
+[Sun Oct 19 23:22:16.741 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Sun Oct 19 23:23:28.487 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Sun Oct 19 23:28:25.902 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Sun Oct 19 23:36:37.384 2008] 0.000 sec [scan/1/ext 5 (0,20)] [*] 
+[Sun Oct 19 23:37:49.961 2008] 0.000 sec [all/1/attr+ 2 (0,1)] [*] fun
+[Sun Oct 19 23:38:10.043 2008] 0.000 sec [all/1/attr+ 2 (0,20)] [*] fun
+[Sun Oct 19 23:39:24.343 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] fun
+[Sun Oct 19 23:39:33.278 2008] 0.001 sec [all/1/ext 2 (0,20)] [*] superman
+[Mon Oct 20 00:02:43.348 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] superman
+[Mon Oct 20 00:03:00.519 2008] 0.000 sec [all/1/ext 2 (0,1)] [*] superman
+[Mon Oct 20 00:04:23.889 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] fun
+[Tue Oct 21 15:19:48.922 2008] 0.027 sec [all/1/ext 2 (0,20)] [*] fun
+[Tue Oct 21 15:19:55.000 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] fun
+[Sun Oct 26 18:24:15.055 2008] 0.013 sec [all/1/ext 2 (0,20)] [*] accurst
+[Sun Oct 26 18:24:32.324 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] apple
+[Sun Oct 26 18:24:36.761 2008] 0.000 sec [all/1/ext 21 (0,20)] [*] abate
+[Sun Oct 26 18:25:04.238 2008] 0.001 sec [all/1/ext 6 (0,20)] [*] abacus
+[Sun Oct 26 18:27:12.462 2008] 0.001 sec [all/1/ext 2 (0,20)] [*] accurst
+[Tue Oct 28 00:02:57.552 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] super
+[Tue Oct 28 00:03:07.388 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] fan
+[Tue Oct 28 00:03:13.539 2008] 0.071 sec [all/1/ext 2 (0,20)] [*] z
+[Tue Oct 28 00:03:32.905 2008] 0.001 sec [all/1/ext 238 (0,20)] [*] water
+[Tue Oct 28 00:03:54.973 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] funny
+[Tue Oct 28 00:04:02.964 2008] 0.000 sec [all/1/ext 2 (0,20)] [*] crazy
+[Tue Oct 28 00:10:23.469 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:11:40.983 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:12:09.981 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:13:43.761 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:14:20.425 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:14:55.695 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] soccer
+[Tue Oct 28 00:16:11.995 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] basketball
+[Tue Oct 28 00:17:17.488 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] basketball
+[Tue Oct 28 00:17:40.944 2008] 0.000 sec [all/1/ext 1 (0,20)] [*] baseball
+[Tue Oct 28 00:24:00.452 2008] 0.000 sec [all/1/ext 14 (0,20)] [*] passion
+[Tue Oct 28 00:24:25.743 2008] 0.000 sec [all/1/ext 14 (0,20)] [*] passion
+[Tue Oct 28 00:42:19.372 2008] 0.000 sec [all/1/ext 0 (0,20)] [*] school
+[Tue Oct 28 00:42:27.257 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] can
+[Tue Oct 28 00:42:50.233 2008] 0.000 sec [all/1/ext 13 (0,20)] [*] education
+[Thu Nov 13 18:06:16.449 2008] 0.124 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:07:28.602 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:08:00.697 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:09:57.469 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:12:24.410 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:13:11.281 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:13:44.099 2008] 0.001 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:14:51.489 2008] 0.001 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:15:34.935 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:16:09.472 2008] 0.000 sec [all/1/ext 6 (0,20)] [*] test
+[Thu Nov 13 18:36:35.653 2008] 0.130 sec [all/1/ext 32 (0,20)] [*] A-
+[Thu Nov 13 18:49:57.400 2008] 0.041 sec [all/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:01:20.280 2008] 0.100 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:12:01.525 2008] 0.019 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:12:24.767 2008] 0.001 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:15:52.865 2008] 0.004 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:43:56.432 2008] 0.029 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:45:08.681 2008] 0.004 sec [bool/1/ext 238 (0,20)] [*] water
+[Thu Nov 13 19:45:39.338 2008] 0.001 sec [bool/1/ext 238 (0,20)] [*] water
+[Sat Nov 15 23:53:31.897 2008] 0.002 sec [bool/1/ext 0 (0,20)] [*] leximo
+[Sat Nov 15 23:54:33.770 2008] 0.000 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Sat Nov 15 23:54:45.590 2008] 0.000 sec [bool/1/ext 0 (0,20)] [*] leximod
+[Sun Nov 16 00:10:39.292 2008] 0.000 sec [bool/1/ext 0 (0,20)] [*] leximod
+[Sun Nov 16 00:10:50.310 2008] 0.000 sec [bool/1/ext 0 (0,20)] [*] leximod
+[Sun Nov 16 00:14:15.866 2008] 0.066 sec [bool/1/ext 1 (0,20)] [*] leximod
+[Sun Nov 16 00:14:37.828 2008] 0.000 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Sun Nov 16 00:14:46.063 2008] 0.004 sec [bool/1/ext 1 (0,20)] [*] leximo
+[Sun Nov 16 00:14:54.462 2008] 0.001 sec [bool/1/ext 1 (0,20)] [*] leximoc
+[Sun Nov 16 00:15:25.827 2008] 0.000 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Sun Nov 16 00:15:37.255 2008] 0.001 sec [bool/1/ext 1 (0,20)] [*] wassu
+[Fri Nov 21 00:45:25.266 2008] 0.776 sec [bool/1/ext 4 (0,20)] [*] car
+[Sun Nov 23 22:58:35.183 2008] 0.742 sec [bool/1/ext 1 (0,20)] [*] were
+[Sat Nov 29 02:57:02.118 2008] 0.285 sec [bool/1/ext 4 (0,10)] [*] car
+[Sat Nov 29 02:57:17.749 2008] 0.017 sec [bool/1/ext 238 (0,10)] [*] water
+[Sat Nov 29 03:17:23.633 2008] 0.002 sec [bool/1/ext 238 (0,10)] [*] water
+[Mon Dec  8 18:08:36.508 2008] 1.321 sec [bool/1/ext 9 (0,10)] [*] one
+[Mon Dec  8 18:08:40.612 2008] 0.000 sec [bool/1/ext 9 (0,10)] [*] one
+[Mon Dec  8 18:28:45.868 2008] 0.001 sec [bool/1/ext 9 (0,10)] [*] one
+[Mon Dec  8 19:18:05.590 2008] 0.325 sec [bool/1/ext 4 (0,10)] [*] carpet
+[Tue Dec 23 22:47:57.736 2008] 0.038 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Tue Dec 23 22:48:40.161 2008] 0.055 sec [bool/1/ext 7 (0,10)] [*] test
+[Tue Dec 23 22:48:55.201 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 22:49:32.610 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 22:53:34.489 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 22:53:51.994 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] free
+[Tue Dec 23 22:54:39.814 2008] 0.002 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Tue Dec 23 22:54:57.540 2008] 0.022 sec [bool/1/ext 1 (0,10)] [*] free
+[Tue Dec 23 22:55:19.921 2008] 0.001 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:00:08.961 2008] 0.001 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:03:36.066 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] الشاق
+[Tue Dec 23 23:03:42.918 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] شاق
+[Tue Dec 23 23:12:31.995 2008] 0.060 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:13:40.047 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:15:39.340 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] الع
+[Tue Dec 23 23:17:56.294 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:18:32.860 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Tue Dec 23 23:36:01.478 2008] 0.179 sec [bool/1/ext 1 (0,10)] [*] were
+[Tue Dec 23 23:36:20.475 2008] 0.000 sec [bool/1/ext 0 (0,10)] [*] العمل الشاق
+[Thu Dec 25 23:12:58.489 2008] 1.306 sec [bool/1/ext 7 (0,10)] [*] test
+[Thu Dec 25 23:14:00.091 2008] 2.381 sec [bool/1/ext 1 (0,10)] [*] leximo
+[Fri Dec 26 00:07:39.019 2008] 0.448 sec [bool/1/ext 8 (0,10)] [*] wagon
+[Mon Dec 29 02:01:42.512 2008] 0.551 sec [bool/1/ext 8 (0,10)] [*] ball
+[Mon Dec 29 02:26:45.781 2008] 0.047 sec [bool/1/ext 1 (0,10)] [*] warrior
+[Mon Dec 29 03:26:03.764 2008] 0.142 sec [bool/1/ext 3 (0,10)] [*] ruby on rails
+[Mon Dec 29 03:27:09.064 2008] 0.068 sec [bool/1/ext 1 (0,10)] [*] leximo
+[Mon Dec 29 03:35:03.921 2008] 0.056 sec [bool/1/ext 2 (0,10)] [*] amazon
+[Mon Dec 29 03:36:00.449 2008] 0.078 sec [bool/1/ext 6 (0,10)] [*] tiger
+[Thu Jan  1 22:00:35.707 2009] 0.018 sec [bool/1/ext 1 (0,10)] [*] cattle
+[Thu Jan  1 22:43:24.021 2009] 0.001 sec [bool/1/ext 11 (0,10)] [*] will
+[Thu Jan  1 22:49:03.791 2009] 0.023 sec [bool/1/ext 8 (0,10)] [*] ball
+[Thu Jan  1 22:50:01.125 2009] 0.023 sec [bool/1/ext 2 (0,10)] [*] zoo
+[Thu Jan  1 23:08:08.309 2009] 0.059 sec [bool/1/ext 15 (0,10)] [*] i
+[Wed Jan 14 02:20:32.082 2009] 0.000 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Wed Jan 14 02:20:58.330 2009] 0.053 sec [bool/1/ext 2 (0,10)] [*] ab
+[Wed Jan 14 02:21:08.253 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] Čihař
+[Wed Jan 14 10:12:03.388 2009] 0.211 sec [bool/1/ext 0 (0,10)] [*] Čihař
+[Wed Jan 14 19:13:52.282 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] wow
+[Wed Jan 14 19:15:03.443 2009] 0.052 sec [bool/1/ext 1 (0,10)] [*] test
+[Wed Jan 14 19:15:49.593 2009] 0.000 sec [bool/1/ext 1 (0,10)] [*] test
+[Wed Jan 14 19:16:58.927 2009] 0.000 sec [bool/1/ext 1 (0,10)] [*] test
+[Wed Jan 14 19:17:08.291 2009] 0.001 sec [bool/1/ext 11 (0,10)] [*] a
+[Wed Jan 14 19:17:25.897 2009] 0.000 sec [bool/1/ext 11 (0,10)] [*] a
+[Wed Jan 14 19:18:19.537 2009] 0.001 sec [bool/1/ext 2 (0,10)] [*] b
+[Wed Jan 14 19:19:08.562 2009] 0.000 sec [bool/1/ext 2 (0,10)] [*] b
+[Wed Jan 14 19:20:14.178 2009] 0.001 sec [bool/1/ext 1 (0,10)] [*] wow
+[Wed Jan 14 19:20:27.898 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] cihar
+[Wed Jan 14 19:20:42.941 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] Čihař
+[Wed Jan 14 19:23:40.028 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] Čihař
+[Wed Jan 14 19:32:12.668 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] Čihař
+[Thu Jan 15 02:49:58.187 2009] 0.846 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Thu Jan 15 09:17:41.039 2009] 0.188 sec [scan/2/rel 0 (0,20)] [word_core] 
+[Sat Jan 17 20:25:14.378 2009] 0.050 sec [bool/1/ext 6 (0,10)] [*] bat
+[Sat Jan 17 20:27:53.796 2009] 0.016 sec [bool/1/ext 8 (0,10)] [*] bill
+[Sat Jan 17 20:29:43.294 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] animal
+[Sat Jan 17 20:29:49.752 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] an
+[Sat Jan 17 20:29:55.934 2009] 0.024 sec [bool/1/ext 3 (0,10)] [*] bo
+[Sat Jan 17 20:32:11.269 2009] 0.001 sec [bool/1/ext 3 (0,10)] [*] bo
+[Sat Jan 17 20:37:01.063 2009] 0.014 sec [bool/1/ext 4 (0,10)] [*] bin
+[Sat Jan 17 20:40:02.539 2009] 0.001 sec [bool/1/ext 0 (0,10)] [*] br
+[Sat Jan 17 20:40:12.318 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] ar
+[Sat Jan 17 20:40:19.769 2009] 0.017 sec [bool/1/ext 2 (0,10)] [*] ai
+[Sat Jan 17 21:16:41.340 2009] 0.001 sec [bool/1/ext 5 (0,10)] [*] be
