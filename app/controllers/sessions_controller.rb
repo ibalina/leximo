@@ -104,7 +104,7 @@
         end
          expire_fragment(:controller => 'words', :action => 'index')
          expire_fragment(:controller => 'words', :action => 'recent')
-	 expire_fragment(:controller => 'words', :action => 'show')
+	 expire_fragment(:controller => 'words')
     end
    
   end
