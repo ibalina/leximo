@@ -4,6 +4,6 @@ module WordsHelper
 			when 'index': 'Popular words'
 			when 'recent': 'Recent words'
 		end
-	 "The Leximo revolution has started. Spread the word. " 
+		 "We are not liberators. Liberators do not exist. The people liberate themselves."
 	end 
 end

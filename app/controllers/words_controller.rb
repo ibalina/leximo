@@ -7,7 +7,7 @@ class WordsController < ApplicationController
   cache_sweeper :word_sweeper, :only => [:create, :update, :destroy]
 
   def index
-	fetch_words 'votes_count >= 2'
+	fetch_words 'votes_count >= 1'
   end
 
   def search
@@ -33,8 +33,8 @@ class WordsController < ApplicationController
 		@word = Word.find(params[:id]) 
 	end
   end
-  def recent
-	fetch_words 'votes_count < 2'
+  def popular
+	fetch_words 'votes_count >= 2'
 	render :action => 'index'
   end
   

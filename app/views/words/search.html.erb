@@ -23,18 +23,20 @@
 
 
 
+
 	<div id="header">
 
 		<ul class="content_navigation">
 			<p>
-				<li><%= link_to ' Popular Words', words_path %></li>
-				<li><%= link_to 'Recent Words', recent_words_path %></li>
+				<li><%= link_to ' Popular Words', popular_words_path %></li>
+				<li><%= link_to 'Recent Words', words_path %></li>
 				<li><%= link_to 'Add Word', new_word_path %></li>
 			</p>
 		</ul>
 
 
 	</div>	<!-- end #header -->
+
 
 <div id="sidebar">
 	<%= render :partial => 'layouts/menu' %>

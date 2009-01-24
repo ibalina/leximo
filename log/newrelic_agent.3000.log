@@ -849,3 +849,65 @@ The error occurred while evaluating nil.size
 [01/20/09 19:36:02 (6934)] INFO : Runtime environment: webrick
 [01/20/09 19:36:02 (6934)] INFO : Error collector is enabled in agent config
 [01/20/09 19:36:02 (6934)] INFO : Transaction tracing is enabled in agent config
+[01/24/09 00:44:15 (6691)] INFO : New Relic RPM Agent 2.7.3 Initialized: pid = 6691
+[01/24/09 00:44:15 (6691)] INFO : Agent Log is found in /home/superman/Desktop/leximo/leximo/log/newrelic_agent.3000.log
+[01/24/09 00:44:15 (6691)] INFO : Runtime environment: webrick
+[01/24/09 00:44:15 (6691)] INFO : Error collector is enabled in agent config
+[01/24/09 00:44:15 (6691)] INFO : Transaction tracing is enabled in agent config
+[01/24/09 00:55:21 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:55:23 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:55:24 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:55:24 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:55:38 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/large/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:55:38 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:55:39 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/large/social.jpg" with {:method=>:get}
+[01/24/09 00:55:58 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:55:59 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:55:59 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:56:00 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:57:48 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No action responded to recent. Actions: create, index, new, popular, search, and show
+[01/24/09 00:58:01 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_words_path' for #<ActionView::Base:0xb60c3c60>
+[01/24/09 00:58:37 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_words_path' for #<ActionView::Base:0xb5fbe39c>
+[01/24/09 00:59:01 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_words_path' for #<ActionView::Base:0xb614efa4>
+[01/24/09 00:59:03 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_words_path' for #<ActionView::Base:0xb60a961c>
+[01/24/09 00:59:07 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_words_path' for #<ActionView::Base:0xb5f97f58>
+[01/24/09 00:59:36 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:59:37 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:59:37 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:59:38 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:59:52 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 00:59:52 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:59:53 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 00:59:53 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:00:36 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:00:37 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:00:58 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:00:59 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:01:35 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:01:35 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:01:36 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:01:36 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:01:46 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `recent_words_path' for #<ActionView::Base:0xb60acb64>
+[01/24/09 01:02:30 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: undefined local variable or method `popular_path' for #<ActionView::Base:0xb5ec7984>
+[01/24/09 01:03:09 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:03:09 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:16:42 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:16:42 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:16:53 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:16:54 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:16:54 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:16:55 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:17:01 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:17:02 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:17:02 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:17:03 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:26:14 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:26:14 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:26:15 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:26:16 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:29:14 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:29:16 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:29:20 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/users/1/thumb/ian-suit.jpg" with {:method=>:get}
+[01/24/09 01:29:21 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:29:22 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/24/09 01:29:22 (6691)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
