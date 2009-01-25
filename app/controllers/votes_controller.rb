@@ -1,6 +1,10 @@
 class VotesController < ApplicationController
 before_filter :login_required
 
+  def tag_cloud 
+	@tags = Word.tag_counts(:limit => 12, :order => 'count desc') # returns all the tags used 
+  end
+
   def create
 	@word = Word.find(params[:word_id])
 	@word.votes.create!(:user => @current_user)

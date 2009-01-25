@@ -17,6 +17,10 @@
 #	   @words_voted_on  = @user.words_voted_on.find(:all,
 #			:limit => 6, :order => 'votes.id DESC')	   
      end
+
+  def tag_cloud 
+	@tags = Word.tag_counts(:limit => 12, :order => 'count desc') # returns all the tags used 
+  end
        
      # render new.rhtml
      def new

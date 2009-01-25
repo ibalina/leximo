@@ -87,11 +87,11 @@
 
 
 <h2>
-    <br>Words submitted by <% if @user.name? %><%= @user.name %> (<%= @user.login %> )<% else %><%= @user.login %><% end %>, who joined Leximo on: <%= @user.created_at.to_s(:long) %>
+    <br/>Words submitted by <% if @user.name? %><%= @user.name %> (<%= @user.login %> )<% else %><%= @user.login %><% end %>, who joined Leximo on: <%= @user.created_at.to_s(:long) %>
 </h2>
-	<br>
+	<br/>
 	<div id="words_submitted">
 		<%= render :partial => 'word', :collection => @words_submitted %> 
 	</div> 
 
-       <%= will_paginate @words_submitted %>	
+       <%= will_paginate @words_submitted %>

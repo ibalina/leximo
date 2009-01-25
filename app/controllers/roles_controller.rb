@@ -7,6 +7,10 @@ class RolesController < ApplicationController
     @all_roles = Role.find(:all)
   end
 
+  def tag_cloud 
+	@tags = Word.tag_counts(:limit => 12, :order => 'count desc') # returns all the tags used 
+  end
+
   def update
     @user = User.find(params[:user_id])
     @role = Role.find(params[:id])

@@ -14,6 +14,10 @@
          password_authentication(params[:login], params[:password])
        end  
      end
+
+     def tag_cloud 
+	@tags = Word.tag_counts(:limit => 12, :order => 'count desc') # returns all the tags used 
+     end
     
      def destroy
        self.current_user.forget_me if logged_in?
