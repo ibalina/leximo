@@ -3,6 +3,7 @@
 
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
+  before_filter :tag_cloud
 
   include AuthenticatedSystem
   # don't show passwords in logs

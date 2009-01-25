@@ -1,0 +1,94 @@
+	<table id="search">
+			<tr id="search_row">
+
+				<td class="logo">
+<a href="http://www.leximo.org"><img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary"></a>
+				</td>
+
+				<td class="search_form">
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
+						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
+						    <%= text_field_tag :search, params[:search], :size => 40  %>
+						    <%= submit_tag "Leximo Define", :name => nil %>
+						<% end %> 
+				</td>
+	</table>
+
+
+
+
+	<div id="header">
+
+	<div id="header">
+
+		<ul class="content_navigation">
+			<p>
+				<li><%= link_to ' Popular Words', words_path %></li>
+				<li><%= link_to 'Recent Words', recent_words_path %></li>
+				<li><%= link_to 'Add Word', new_word_path %></li>
+			</p>
+		</ul>
+
+
+	</div>	<!-- end #header -->
+
+<div id="banner">
+<br />
+</div>
+
+<div id="container">   
+
+<br/>
+
+	<div id="word_form">
+		
+		<% form_for @word, :html => { :multipart => true } do |f| %>
+		<br/>
+		<h1> <i> <%= @word.word %> </i> </h1> <br/>
+
+		<i>No tolerance policy for spam. I.P. addresses are logged and you will be
+		BANNED!</i>
+
+		<p><br />
+		<b>Language</b>: <i>Enter the language of the word</i><br />
+		<br />
+		<%= f.text_field :language, :size => "60x10" %></p>
+
+		<p><br />
+		<b>Definition</b>: <i>The definition of the word, must not contain the word</i><br />
+		<br />
+		<%= f.text_area :definition, :size => "80x10" %><br /></p>
+
+		<p><br />
+		<b>Example</b>: <i>A sentence example using the word</i><br />
+		<br />
+		<%= f.text_area :example, :size => "60x10" %><br /></p>
+
+		<p><br />
+		<br />
+		<b>Tags</b> (Separate each word w/a Comma): <i>Synonyms, antonyms, etc</i><br />
+		<br />
+		<%= f.text_field :tag_list, :size => "60x10" %><br /></p>
+
+		<p><br />
+		<b>Upload Photo</b>: <i>Add an appropriate photo that symbolizes this word.</i><br />
+		<br />
+		<%= f.file_field :photo %> <br /></p>
+
+		<p>
+		<br />
+		<b>Are you human?</b></p>
+
+		<p><%= recaptcha_tags %></p><br />
+
+		<p><br />
+		<%= submit_tag "Add this word to Leximo"%></p><% end %>
+
+	</div>
+</div>
+</div>

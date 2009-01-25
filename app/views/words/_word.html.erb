@@ -18,7 +18,13 @@
 				</td>
 
 				<td class="word_definition_body">				
-					<h1><%= link_to word.word, word %></h1> <h2><i>(<%=word.language %>)</i> </h2> </br> 
+					<h1><%= link_to word.word, word %></h1> <h2><i>(<%=word.language %>)</i> </h2> 
+		<% if logged_in? %> 
+			<% if word.user.login == current_user.login %>  <br/> 
+				<%= link_to 'Edit your definition', edit_word_path(word) %> 
+			<% end %> 
+		<% end %>
+					</br> 
 					<p><%= word.definition.slice(0,255) %>...<%= link_to "More", word %> </p> 
 
 

@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
   map.root :controller => "words"
-  map.resources :words, :has_many => :votes, :collection => { :popular => :get }
+  map.resources :words, :has_many => :votes, :collection => { :recent => :get }
   map.resources :tags
   map.search '/search', :controller => 'words', :action => 'search'
   map.open_id_complete 'sessions', :controller => "sessions", :action => "create",

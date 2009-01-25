@@ -7,7 +7,7 @@ class WordsController < ApplicationController
   cache_sweeper :word_sweeper, :only => [:create, :update, :destroy]
 
   def index
-	fetch_words 'votes_count >= 1'
+	fetch_words 'votes_count >= 2'
   end
 
   def search
@@ -17,6 +17,7 @@ class WordsController < ApplicationController
   def new
 	@word = Word.new
   end
+
   def create
 	@word = @current_user.words.build params[:word]
     if verify_recaptcha && @word.save
@@ -28,14 +29,33 @@ class WordsController < ApplicationController
 		render :action => 'new'
 	end
   end
+
+  def update
+    	 @word = Word.find(params[:id])
+   	 if verify_recaptcha && @word.update_attributes(params[:word])
+    	  flash[:notice] = 'Word was successfully updated.'
+    	  redirect_to :action => 'show', :id => @word
+	else
+		render :action => 'edit'
+	end
+  end
+
+  def edit
+       @word = Word.find(params[:id])
+  end
+
   def show
 	unless read_fragment({:id => params[:id]})  # Add the id param to the cache naming
 		@word = Word.find(params[:id]) 
 	end
   end
-  def popular
-	fetch_words 'votes_count >= 2'
+  def recent
+	fetch_words 'votes_count < 2'
 	render :action => 'index'
+  end
+
+  def tag_cloud 
+	@tags = Word.tag_counts # returns all the tags used 
   end
   
   protected
