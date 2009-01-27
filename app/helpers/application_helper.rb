@@ -6,4 +6,12 @@ module ApplicationHelper
     content_for(:title) { page_title }
   end
 
+  def description(page_description)
+    content_for(:description) { page_description }
+  end
+
+  def meta(page_meta)
+    content_for(:meta) { page_meta }
+  end
+
 end

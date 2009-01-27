@@ -1258,3 +1258,13 @@ The error occurred while evaluating nil.tag_counts
 [01/27/09 09:52:22 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
 [01/27/09 09:52:53 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: Couldn't find Word with ID=7-baller-for-life
 [01/27/09 09:54:37 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/404.html" with {:method=>:get}
+[01/27/09 10:39:07 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:39:07 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:39:23 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/large/social.jpg" with {:method=>:get}
+[01/27/09 10:45:15 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:47:04 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:47:05 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:55:26 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
+[01/27/09 10:55:32 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/large/social.jpg" with {:method=>:get}
+[01/27/09 10:56:29 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/large/social.jpg" with {:method=>:get}
+[01/27/09 10:56:50 (10191)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/1/thumb/social.jpg" with {:method=>:get}
