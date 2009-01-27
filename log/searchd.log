@@ -183,3 +183,7 @@
 [Thu Jan 15 09:17:43.401 2009] [ 7912] rotating index 'word_delta': success
 [Thu Jan 15 09:17:43.401 2009] [ 7912] rotating finished
 [Sat Jan 17 20:25:05.735 2009] [31757] accepting connections
+[Tue Jan 27 09:44:52.987 2009] [10920] accepting connections
+[Tue Jan 27 09:48:02.064 2009] [10920] rotating indices (seamless=1)
+[Tue Jan 27 09:48:03.087 2009] [10920] rotating index 'word_delta': success
+[Tue Jan 27 09:48:03.087 2009] [10920] rotating finished

@@ -55,7 +55,7 @@ class WordsController < ApplicationController
   end
 
   def tag_cloud 
-	@tags = Word.tag_counts(:limit => 12, :order => 'count desc') # returns all the tags used 
+	@tags = Word.tag_counts(:limit => 20, :order => 'count desc') # returns all the tags used 
   end
   
   protected

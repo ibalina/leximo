@@ -356,3 +356,8 @@
 [Sat Jan 17 20:40:12.318 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] ar
 [Sat Jan 17 20:40:19.769 2009] 0.017 sec [bool/1/ext 2 (0,10)] [*] ai
 [Sat Jan 17 21:16:41.340 2009] 0.001 sec [bool/1/ext 5 (0,10)] [*] be
+[Tue Jan 27 09:45:04.911 2009] 0.041 sec [bool/1/ext 0 (0,10)] [*] ter
+[Tue Jan 27 09:45:16.327 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] web
+[Tue Jan 27 09:45:28.466 2009] 0.054 sec [bool/1/ext 3 (0,10)] [*] social
+[Tue Jan 27 09:46:21.350 2009] 0.002 sec [bool/1/ext 3 (0,10)] [*] social
+[Tue Jan 27 09:48:00.482 2009] 0.000 sec [scan/2/rel 1 (0,20)] [word_core] 
