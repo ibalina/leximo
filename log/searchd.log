@@ -187,3 +187,7 @@
 [Tue Jan 27 09:48:02.064 2009] [10920] rotating indices (seamless=1)
 [Tue Jan 27 09:48:03.087 2009] [10920] rotating index 'word_delta': success
 [Tue Jan 27 09:48:03.087 2009] [10920] rotating finished
+[Sat Feb 14 01:08:54.380 2009] [14727] accepting connections
+[Sat Feb 14 01:11:14.464 2009] [14727] caught SIGTERM, shutting down
+[Sat Feb 14 01:11:14.464 2009] [14727] shutdown complete
+[Sat Feb 14 01:11:54.938 2009] [14818] accepting connections

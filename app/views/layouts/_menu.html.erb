@@ -11,10 +11,10 @@
 
                 <center> <strong> <%= Word.count %> </strong>  <br/> <h1>Words added so far! </h1> </center> 
 
-			<center> <strong> Popular Tags </strong> 
+			<center> <strong> Recent Tags </strong> 
 		             <hr width="250" />
 
-	<% tag_cloud @tags, %w(css_class1 css_class2 css_class3 css_class4) do |tag, css_class| %> <%= link_to tag, { :id => tag.name }, :class => css_class %> <% end %> 
+	<% tag_cloud @tags, %w(css_class1 css_class2 css_class3 css_class4) do |tag, css_class| %> <%= link_to tag, tag_path(tag.name), :class => css_class %> <% end %> 
 </center>
 	<% end %>
 	<br/>
@@ -28,7 +28,7 @@
             </div>
             <hr width="250" />
 
-                <p>Leximo is a <strong>Multi-Lingual User Collaborated Dictionary</strong> that lets you search, discover and share your words with the World. Read the <%= link_to "Leximo Manifesto to learn more...", 'http://blog.leximo.org/2008/11/leximo-manifesto.html'%>
+                <p>Leximo is a <strong>Multilingual User Collaborated Dictionary</strong> that lets you search, discover and share your words with the World. Read the <%= link_to "Leximo Manifesto to learn more...", 'http://blog.leximo.org/2008/11/leximo-manifesto.html'%>
                 </p>
 
             <hr width="250" />

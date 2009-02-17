@@ -3,6 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => "words"
   map.resources :words, :has_many => :votes, :collection => { :recent => :get }
   map.resources :tags
+#  map.tags '/tags' , :controller => 'tags', :action => 'show'
   map.search '/search', :controller => 'words', :action => 'search'
   map.open_id_complete 'sessions', :controller => "sessions", :action => "create",
   :requirements => { :method => :get }

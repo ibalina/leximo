@@ -361,3 +361,17 @@
 [Tue Jan 27 09:45:28.466 2009] 0.054 sec [bool/1/ext 3 (0,10)] [*] social
 [Tue Jan 27 09:46:21.350 2009] 0.002 sec [bool/1/ext 3 (0,10)] [*] social
 [Tue Jan 27 09:48:00.482 2009] 0.000 sec [scan/2/rel 1 (0,20)] [word_core] 
+[Sat Feb 14 01:09:10.067 2009] 0.001 sec [bool/1/ext 0 (0,10)] [*] car
+[Sat Feb 14 01:09:26.236 2009] 0.120 sec [bool/1/ext 1 (0,10)] [*] test
+[Sat Feb 14 01:09:47.283 2009] 0.020 sec [bool/1/ext 4 (0,10)] [*] social
+[Sat Feb 14 01:10:02.735 2009] 0.041 sec [bool/1/ext 39 (0,10)] [*] s
+[Sat Feb 14 01:12:01.358 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] s
+[Sat Feb 14 01:12:13.771 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] soc
+[Sat Feb 14 01:12:21.324 2009] 0.001 sec [bool/1/ext 0 (0,10)] [*] socia
+[Sat Feb 14 01:12:26.484 2009] 0.001 sec [bool/1/ext 4 (0,10)] [*] social
+[Sat Feb 14 01:12:45.221 2009] 0.000 sec [bool/1/ext 0 (0,10)] [*] web
+[Sat Feb 14 02:15:10.342 2009] 0.645 sec [bool/1/ext 1 (0,10)] [*] werew
+[Sat Feb 14 02:22:04.140 2009] 0.002 sec [bool/1/ext 1 (0,10)] [*] werew
+[Sat Feb 14 02:23:55.623 2009] 0.001 sec [bool/1/ext 1 (0,10)] [*] werew
+[Sat Feb 14 02:24:59.058 2009] 0.000 sec [bool/1/ext 1 (0,10)] [*] werew
+[Sat Feb 14 02:26:54.869 2009] 0.002 sec [bool/1/ext 1 (0,10)] [*] werew

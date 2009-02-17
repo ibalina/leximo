@@ -4,7 +4,7 @@ class AccountsController < ApplicationController
   before_filter :not_logged_in_required, :only => :show
 
   def tag_cloud 
-	@tags = Word.tag_counts(:limit => 20, :order => 'count desc') # returns all the tags used 
+	@tags = Word.tag_counts(:limit => 20, :order => 'id desc') # returns all the tags used 
   end
 
   # Activate action

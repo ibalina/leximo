@@ -19,7 +19,7 @@
      end
 
   def tag_cloud 
-	@tags = Word.tag_counts(:limit => 20, :order => 'count desc') # returns all the tags used 
+	@tags = Word.tag_counts(:limit => 20, :order => 'id desc') # returns all the tags used 
   end
        
      # render new.rhtml
