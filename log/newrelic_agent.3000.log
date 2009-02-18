@@ -1567,3 +1567,8 @@ The error occurred while evaluating nil.each
 [02/14/09 02:26:42 (15714)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
 [02/14/09 02:26:50 (15714)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/3/thumb/social.jpg" with {:method=>:get}
 [02/14/09 02:26:51 (15714)] INFO : The error reporting queue has reached 20. This error will not be reported to RPM: No route matches "/assets/words/2/thumb/social.jpg" with {:method=>:get}
+[02/17/09 19:24:06 (16496)] INFO : New Relic RPM Agent 2.7.3 Initialized: pid = 16496
+[02/17/09 19:24:06 (16496)] INFO : Agent Log is found in /home/superman/Desktop/leximo/leximo/log/newrelic_agent.3000.log
+[02/17/09 19:24:06 (16496)] INFO : Runtime environment: webrick
+[02/17/09 19:24:06 (16496)] INFO : Error collector is enabled in agent config
+[02/17/09 19:24:06 (16496)] INFO : Transaction tracing is enabled in agent config
