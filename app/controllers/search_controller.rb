@@ -9,6 +9,9 @@ class SearchController < ApplicationController
       
   def search
 	  @words = Word.search params[:search], :per_page => 20, :page => params[:page]
-	  #@words = Word.search params[:search], :page =>1, :per_page => 20
+	  respond_to do |format|
+	    format.html{}
+	    format.rss {}
+	  end
   end
 end

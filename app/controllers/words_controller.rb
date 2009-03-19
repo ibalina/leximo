@@ -52,7 +52,10 @@ class WordsController < ApplicationController
   
   def recent
 	  fetch_words 'votes_count < 2'
-	  render :action => 'index'
+	  respond_to do |format|
+	    format.html {render :action => 'index'}
+	    format.rss  {render :action => 'index.rss'}
+	  end  
   end
 
   def tag_cloud 

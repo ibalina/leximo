@@ -66,11 +66,11 @@ ActiveRecord::Schema.define(:version => 11) do
     t.string   "activation_code",           :limit => 40
     t.datetime "activated_at"
     t.string   "password_reset_code",       :limit => 40
-    t.boolean  "enabled",                                  :default => true
+    t.boolean  "enabled",                                 :default => true
     t.string   "name",                      :limit => 40
     t.string   "location",                  :limit => 40
     t.string   "web",                       :limit => 40
-    t.text     "bio",                       :limit => 255
+    t.text     "bio"
     t.string   "photo_file_name"
     t.string   "photo_content_type"
     t.integer  "photo_file_size"

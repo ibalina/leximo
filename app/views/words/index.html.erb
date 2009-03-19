@@ -34,18 +34,19 @@
 
 	</div>	<!-- end #header -->
 
-	 <div id="sidebar">
+	<div id="sidebar">
 		<%= render :partial => 'layouts/menu' %>
 	</div>
 
-        <div id="banner">
-            <br />
-            <%= word_list_heading %>
-        </div>
+  <div id="banner">
+    <br />
+    <%= word_list_heading %>
+  </div>
 
 
-	<%= render :partial => @words %> <br/>
-        <%= will_paginate @words %>
+	<%= render :partial => @words %> 
+	<br/>
+  <%= will_paginate @words %>
 
 
 
