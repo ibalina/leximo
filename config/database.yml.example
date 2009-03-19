@@ -3,8 +3,8 @@
 development:
   adapter: mysql
   database: leximo_development
-  username: ibalina
-  password: superman88
+  username: root
+  password: 
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -13,13 +13,13 @@ development:
 test:
   adapter: mysql
   database: leximo_test
-  username: ibalina
-  password: superman88
+  username: root
+  password: 
   host: localhost
 
 production:
   adapter: mysql
   database: leximo_production
-  username: ibalina
-  password: superman88
+  username: root
+  password: 
   host: localhost
