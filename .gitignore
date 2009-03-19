@@ -1,0 +1,16 @@
+log/*.log
+log/*.pid
+tmp/**/*
+.DS_Store
+doc/api
+doc/app
+doc/plugins
+coverage
+db/*.sqlite3
+db/schema.rb
+db/sphinx
+db/*_data.sql
+config/*.sphinx.conf
+config/database.yml
+config/*.sphinx.conf
+db/sphinx

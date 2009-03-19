@@ -10,8 +10,8 @@ class Word < ActiveRecord::Base
 	belongs_to :user
 
 	has_attached_file :photo, :styles => { :thumb=> "75x75#", :large => "640x480>" },
-                  :url  => "/assets/words/:id/:style/:basename.:extension",
-                  :path => ":rails_root/public/assets/words/:id/:style/:basename.:extension"
+                    :url  => "/assets/words/:id/:style/:basename.:extension",
+                    :path => ":rails_root/public/assets/words/:id/:style/:basename.:extension"
 
 #	validates_attachment_presence :photo
 	validates_attachment_size :photo, :less_than => 5.megabytes

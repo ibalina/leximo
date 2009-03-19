@@ -11,18 +11,20 @@ class AccountsController < ApplicationController
   def show
     # Uncomment and change paths to have user logged in after activation - not recommended
     #self.current_user = User.find_and_activate!(params[:id])
-    User.find_and_activate!(params[:id])
-    flash[:notice] = "Your account has been activated! You can now login."
-    redirect_to login_path
-  rescue User::ArgumentError
-    flash[:notice] = 'Activation code not found. Please try creating a new account.'
-    redirect_to new_user_path 
-  rescue User::ActivationCodeNotFound
-    flash[:notice] = 'Activation code not found. Please try creating a new account.'
-    redirect_to new_user_path
-  rescue User::AlreadyActivated
-    flash[:notice] = 'Your account has already been activated. You can log in below.'
-    redirect_to login_path
+    begin
+      User.find_and_activate!(params[:id])
+      flash[:notice] = "Your account has been activated! You can now login."
+      redirect_to login_path
+    rescue User::ArgumentError
+      flash[:notice] = 'Activation code not found. Please try creating a new account.'
+      redirect_to new_user_path 
+    rescue User::ActivationCodeNotFound
+      flash[:notice] = 'Activation code not found. Please try creating a new account.'
+      redirect_to new_user_path
+    rescue User::AlreadyActivated
+      flash[:notice] = 'Your account has already been activated. You can log in below.'
+      redirect_to login_path
+    end  
   end
 
   def edit
