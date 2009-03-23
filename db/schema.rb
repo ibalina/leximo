@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 11) do
+ActiveRecord::Schema.define(:version => 20090323143956) do
 
   create_table "open_id_authentication_associations", :force => true do |t|
     t.integer "issued"
@@ -99,6 +99,7 @@ ActiveRecord::Schema.define(:version => 11) do
     t.integer  "user_id"
     t.integer  "votes_count",        :default => 0
     t.boolean  "delta",              :default => false
+    t.string   "video_id"
   end
 
 end

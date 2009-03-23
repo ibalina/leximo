@@ -145,7 +145,18 @@
 					<br/></br>
 				<% end %>
 		
+        <br/></br>
+				<center>
+					<h2><i>Video</i></h2>
+					<div class="youtube_video">
+            <object width="425" height="355">
+              <param name="movie" value="http://www.youtube.com/v/#{video_id}&hl=en"></param>
+              <param name="wmode" value="transparent"></param>
+              <embed src="http://www.youtube.com/v/<%=@word.video_id%>&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+            </object>
+           </div>
 
+				<center>
 				<br/></br>
 				<center>
 					<h2><i>Videos related to <strong><%= @word.word %></strong> </i></h2>
