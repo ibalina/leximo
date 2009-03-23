@@ -1,3 +1,6 @@
+
+<% content_for :title, "Add a word to Leximo - Free Online World Dictionary - Share your words with the world"  %>
+
 	<table id="search">
 			<tr id="search_row">
 
@@ -6,7 +9,12 @@
 				</td>
 
 				<td class="search_form">
-						  
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
 						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
 						    <%= text_field_tag :search, params[:search], :size => 40  %>
 						    <%= submit_tag "Leximo Define", :name => nil %>
@@ -15,9 +23,6 @@
 	</table>
 
 
-
-
-	<div id="header">
 
 	<div id="header">
 
@@ -32,27 +37,31 @@
 
 	</div>	<!-- end #header -->
 
+
 <div id="banner">
 <br />
 </div>
 
-<div id="container">   
-
-<br/>
-
+<div id="container">
 	<div id="word_form">
 		
-		<% form_for @word, :html => { :multipart => true } do |f| %>
-		<br/>
-		<h1> <i> <%= @word.word %> </i> </h1> <br/>
+		<%= error_messages_for 'word' %> <% form_for @word, :html => { :multipart => true } do |f| %>
+
+		<h1>Add a word to Leximo. It can be in any language.</h1>
+
 
 		<i>No tolerance policy for spam. I.P. addresses are logged and you will be
 		BANNED!</i>
 
 		<p><br />
+		<b>Word</b>: <i>Enter the word you would like to add</i><br />
+		<br />
+		<%= f.text_field :word, :size => "60x10" %><br /></p>
+
+		<p><br />
 		<b>Language</b>: <i>Enter the language of the word</i><br />
 		<br />
-		<%= f.text_field :language, :size => "60x10" %></p>
+		<%= f.text_field :language, :size => "60x10" %><br /></p>
 
 		<p><br />
 		<b>Definition</b>: <i>The definition of the word, must not contain the word</i><br />
@@ -85,5 +94,4 @@
 		<%= submit_tag "Add this word to Leximo"%></p><% end %>
 
 	</div>
-</div>
 </div>

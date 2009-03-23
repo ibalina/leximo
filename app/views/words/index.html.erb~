@@ -6,6 +6,12 @@
 				</td>
 
 				<td class="search_form">
+						   <!--> <form action='/search'>
+								<input name="search" type="text" size="35" align="center" />
+								<input type='submit' value='Leximo Define' />
+						  </form><-->
+
+
 						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
 						    <%= text_field_tag :search, params[:search], :size => 40  %>
 						    <%= submit_tag "Leximo Define", :name => nil %>

@@ -7,8 +7,6 @@
 <a href="http://www.leximo.org"><img src="/images/leximo.png" border="0" alt="Leximo - World Dictionary"></a>
 				</td>
 
-				<td class="search_form">
-						  
 						  <% form_tag({ :action => "search" }, :method => 'get') do %> 
 						    <%= text_field_tag :search, params[:search], :size => 40  %>
 						    <%= submit_tag "Leximo Define", :name => nil %>
