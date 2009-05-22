@@ -1,0 +1,9 @@
+module WordsHelper
+	def word_list_heading
+		word_type = case controller.action_name
+			when 'index': 'Popular words'
+			when 'recent': 'Recent words'
+		end
+		 "Please tell your friends about Leximo's quest to unify all the world's languages. More people becoming involved will lead to more words, making Leximo more useful."
+	end 
+end

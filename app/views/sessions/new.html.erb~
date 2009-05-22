@@ -105,7 +105,7 @@
 							</div>
 							<div class='c2'> <br/>
 							<p>Read <%= link_to "The Leximo Dictionary Manifesto", 'http://blog.leximo.org/2008/11/leximo-manifesto.html'%> to find out. </p>
-							<p>Take a <%= link_to "VIP tour of Leximo here", 'http://blog.leximo.org/2009/02/take-tour-of-leximoin-high-definition.html'%>
+							<p>Take a <%= link_to "VIP tour of Leximo here", 'http://blog.leximo.org/2009/02/take-tour-of-leximoin-high-definition.html'>
 							 
 							</p>
 							</div>

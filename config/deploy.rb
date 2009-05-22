@@ -2,9 +2,15 @@ require 'mongrel_cluster/recipes'
 
 set :application, "www.leximo.org"
 set :user, "ibalina"
+# Source code
 
-#set :local_repository,  "svn+project1ssh://66.246.75.193/home/leximo/repository/project1/"
-set :repository, "http://my-svn.assembla.com/svn/leximo"
+default_run_options[:pty] = true
+set :scm, :git
+set :repository, "git@github.com:leximo/leximo.git"
+ssh_options[:port] = 30000
+set :branch, "master"
+set :repository_cache, "git_cache"
+set :ssh_options, { :forward_agent => true }
 
 # If you aren't deploying to /u/apps/#{application} on the target
 # servers (which is the default), you can specify the actual location
