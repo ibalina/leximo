@@ -33,7 +33,7 @@
 
 				<td class="photo_thumb">
 
-				  <% if word.photo? %> <% image_tag word.photo.url(:thumb) %> <% end %>
+				  <% if word.photo? %><%= image_tag word.photo.url(:thumb) %> <% end %>
 				</td>
 
 	</tr>

@@ -57,9 +57,9 @@
 		<center>
 
 			<% if @word.user.photo? %> 
-				<%= image_tag @word.user.photo.url(:large) %> <br/> <br/> 
+				<% image_tag @word.user.photo.url(:large) %> <br/> <br/> 
 			<% else %>
-				<img src="/images/Buddy.png" border="0" alt="user-profile-photo">
+				<!-- <img src="/images/Buddy.png" border="0" alt="user-profile-photo"> -->
 			<% end %>
 
 		</center>
@@ -101,12 +101,12 @@
 						 </p> 
 					<% end %>
 
-					<br/> <br/>
+					<br/> 
 					<% if @word.user.photo? %> 
-						<%= image_tag @word.user.photo.url(:thumb) %> 
+						<% image_tag @word.user.photo.url(:thumb) %> 
 					<% else %>
-						<img src="/images/Buddy.png" border="0" alt="user-profile-photo" width="25" height="25">
-					<% end %> <br/>
+						<!-- <img src="/images/Buddy.png" border="0" alt="user-profile-photo" width="75" height="75"> -->
+					<% end %> 
 					By: <span><%= link_to (@word.user.login), user_path(@word.user) %></span>
 				</td>
 
@@ -137,15 +137,17 @@
 				<br/></br>
 
 				<% if @word.photo? %> 
-					<center>
+					<!-- <center>
 						<h2><i>Picture for <strong><%= @word.word %></strong> </i> </h2>
 						<br/></br>
 						<% if @word.photo? %> <%= image_tag @word.photo.url(:large) %> <% end %> <br/>
-					</center>
+					</center> -->
 					<br/></br>
 				<% end %>
 		
         <br/></br>
+
+			<% if @word.video_id? %> 
 				<center>
 					<h2><i>Video</i></h2>
 					<div class="youtube_video">
@@ -155,6 +157,7 @@
               <embed src="http://www.youtube.com/v/<%=@word.video_id%>&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
             </object>
            </div>
+				<% end %>
 
 				<center>
 				<br/></br>

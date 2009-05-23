@@ -61,9 +61,12 @@
 	<img class ="photo">
 		<center>
 
-			<% if @user.photo? %> <%= image_tag @user.photo.url(:thumb) %> <br/> <br/> 
-			<% else %> <img alt="user-profile-photo" style="border-width:0" src="/images/Buddy.png" />
-			<% end %>
+<% if @user.photo.exists? then %>
+<p>Thumb:<%= image_tag @user.photo.url(:thumb) %></p>
+<p>Large:<%= image_tag @user.photo.url(:large) %></p>
+<% else %>
+<p> There are no photo's attached, upload one. </p>
+<% end %>
 
 		</center>
 	</img>

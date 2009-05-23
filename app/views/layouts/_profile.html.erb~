@@ -6,7 +6,7 @@
             /*]]>*/
         </style>
 
-	<% if @user.name? %> <%= @user.name %>  <% end %> <br/>
+	<% if @user.name? %><div class="c1"> <%= @user.name %>  </div>  <% end %> <br/>
 
 	<img class ="photo">
 		<center>

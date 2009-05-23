@@ -1,3 +1,5 @@
+
+
 <div id="content" align="left">
 
 	<table id="words">
@@ -8,19 +10,22 @@
 						<span id="vote_score"> 
 							Score: <%= word.votes.size %> 
 						</span> <br/> <br/>
+						<% if word.user.photo? %> <% image_tag word.user.photo.url(:thumb) %>
+							<img alt="user-profile-photo" style="border-width:0" src="/images/Buddy.png" width="75" height="75" />
+						<% else %> <img alt="user-profile-photo" style="border-width:0" src="/images/Buddy.png" width="75" height="75" />
+						<% end %>
 					  	By: <span><%= link_to (word.user.login), user_path(word.user) %></span>
 					</h2> 
 				</td>
 
 				<td class="word_definition_body">				
-					<h1><%= link_to word.word, word %></h1> <h2><i>(<%=word.language %>)</i> </h2> </br> 
-
+					<h1><%= link_to word.word, word %></h1> <h2><i>(<%=word.language %>)</i> </h2> 
 		<% if logged_in? %> 
 			<% if word.user.login == current_user.login %>  <br/> 
-				<%= link_to 'Edit your definition', edit_word_path(word) %> 
+				<%= link_to 'Edit definition', edit_word_path(word) %> 
 			<% end %> 
 		<% end %>
-
+					</br> 
 					<p><%= word.definition.slice(0,255) %>...<%= link_to "More", word %> </p> 
 
 
@@ -33,7 +38,7 @@
 
 				<td class="photo_thumb">
 
-				  <% if word.photo? %> <% image_tag word.photo.url(:thumb) %> <% end %>
+				  <% if word.photo? %>  <% image_tag word.photo.url(:thumb) %> <% end %> 
 				</td>
 
 	</tr>
